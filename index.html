@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreeCodeCamp Survey</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>FreeCodeCamp Survey Form</h1>
+      <h2>Thank You For Taking The Time To Help Us Improve The Platform</h2>
+    </header>
+    <fieldset>
+      <label for="name">Name</label>
+      <input type="text" id="name" class="input-size" />
+      <label for="email">Email</label>
+      <input type="email" id="email" class="input-size" />
+      <label for="Age">Age</label>
+      <input type="number" placeholder="Age" min="18" class="input-size" />
+      <label for="option">Which Option Best Describes Your Current Role?</label>
+      <select id="option" class="input-size">
+        <option value="">Select Current Role</option>
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+        <option value="Career">Career Shifter</option>
+      </select>
+
+      <label for="" class="inlines"
+        >Would You Recommend FreeCodeCamp To A Friend?</label
+      >
+
+      <label class="radio-group">
+        <input type="radio" name="option" value="definitely" /> Definitely
+      </label>
+      <label class="radio-group">
+        <input type="radio" name="option" value="maybe" /> Maybe
+      </label>
+      <label class="radio-group">
+        <input type="radio" name="option" value="not-sure" /> Not Sure
+      </label>
+    </fieldset>
+    <fieldset>
+      <label for="option">What Is Your Favorite Feature Of FreeCodeCamp?</label>
+      <select id="option">
+        <option value="">Select an option</option>
+        <option value="student">Free Certificate</option>
+        <option value="teacher">Videos</option>
+        <option value="Career">Activities</option>
+      </select>
+      <label for="option"
+        >What Would You Like To See Improved?(Check All That Apply)</label
+      >
+      <label class="radio-group">
+        <input type="checkbox" /> Front-end Projects
+      </label>
+      <label class="radio-group">
+        <input type="checkbox" /> Back-end Projects
+      </label>
+      <label class="radio-group">
+        <input type="checkbox" /> Data Visualization
+      </label>
+      <label class="radio-group"> <input type="checkbox" /> Challenges </label>
+      <label class="radio-group">
+        <input type="checkbox" /> Open Source Community
+      </label>
+      <label class="radio-group">
+        <input type="checkbox" /> Gitter Help Rooms
+      </label>
+      <label class="radio-group"> <input type="checkbox" /> Videos </label>
+      <label class="radio-group">
+        <input type="checkbox" /> City Meetups
+      </label>
+      <label class="radio-group"> <input type="checkbox" /> Wiki </label>
+      <label class="radio-group"> <input type="checkbox" /> Forum </label>
+      <label class="radio-group">
+        <input type="checkbox" /> Additional Courses
+      </label>
+      <label for="">Any Comments Or Suggestion?</label>
+      <textarea
+        name=""
+        id=""
+        placeholder="Enter your Comment Here..."
+      ></textarea>
+    </fieldset>
+    <button type="submit" class="btn">Submit</button>
+    <footer><p>&copy September 2024 FreeCodeCamp</p></footer>
+  </body>
+</html>
